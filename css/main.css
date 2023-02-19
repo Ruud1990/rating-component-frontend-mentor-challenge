@@ -1,0 +1,128 @@
+:root {
+    --clr-primary-orange: hsl(25, 97%, 53%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-LightGrey: hsl(217, 12%, 63%);
+    --clr-MediumGrey: hsl(216, 12%, 54%);
+    --clr-DarkBlue: hsl(213, 19%, 18%);
+    --clr-VeryDarkBlue: hsl(216, 12%, 8%);
+    --fs-standardFontSize: 15px;
+}
+
+* {
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-VeryDarkBlue);
+    min-height: 100vh;
+}
+
+.ranking-container {
+    position: relative;
+    width: 320px;
+    min-height: 350px;
+    background-color: var(--clr-DarkBlue);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background-color: var(--clr-MediumGrey);
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--clr-LightGrey);
+    color: var(--clr-DarkBlue);
+}
+
+li:hover {
+    background-color: var(--clr-primary-orange)
+}
+
+li:active {
+    background-color: var(--clr-white);
+}
+
+h2 {
+    color: var(--clr-white);
+    margin: 1rem auto;
+}
+
+p {
+    color: var(--clr-LightGrey);
+    margin-bottom: 1rem;
+}
+
+.submit-btn {
+    position: absolute;
+    background-color: var(--clr-primary-orange);
+    color: var(--clr-white);
+    width: 80%;
+    margin: 1rem auto;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.submit-btn:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-primary-orange)
+}
+
+.thanks-container {
+    position: relative;
+    width: 320px;
+    min-height: 350px;
+    background-color: var(--clr-DarkBlue);
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.choice-container {
+    background-color: var(--clr-LightGrey);
+    color: var(--clr-primary-orange);
+    border-radius: 15px;
+    padding: 0.2rem 0.7rem;
+}
+
+.thanks-container p {
+    text-align: center;
+}
+
+h3 {
+    color: var(--clr-white);
+}
