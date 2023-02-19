@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    
   
-  <title>Frontend Mentor | Interactive rating component</title>
-</head>
-<body>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
 <main>
   <div class="ranking-container">
     <div class="img-container">
@@ -21,11 +22,11 @@
     to help us improve our offering!</p>
     <div class="rates-container">
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
+        <li class='rate' value="1">1</li>
+        <li class='rate' value="2">2</li>
+        <li class='rate' value="3">3</li>
+        <li class='rate' value="4">4</li>
+        <li class='rate' value="5">5</li>
       </ul>
     </div>
     <button class="submit-btn">Submit</button>
@@ -33,7 +34,7 @@
   <div class="thanks-container">
     <img src="/images/illustration-thank-you.svg" alt="mobile phone">
     <div class="choice-container">
-      You selected <!-- Add rating here --> out of 5
+      You selected  out of 5
     </div>
     <h3> Thank you!</h3>
     <p>We appreciate you taking the time to give a rating. If you ever need more support, 
@@ -44,7 +45,6 @@
 
 
 
-  
- <script type="text/javascript" href="/js/main.js"></script>
+  <script defer src="/main.js"></script>
 </body>
 </html>
